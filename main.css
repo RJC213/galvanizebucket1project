@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+header {
+    background-image: url('http://www.2-scale.com/clientuploads/directory/header_sidebar_photos/Home-Header/header-home-white-grayscale.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 4px double darkslateblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkslateblue;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)); */
+}
+h1 {
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul li {
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid darkslateblue;
+    border-radius: 100px;
+    margin: 3px;
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+}
+a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    transition: 0.1s;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 2px 10px white;
+    box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.5);
+}
+.index {
+    background-image: url('https://free4kwallpapers.com/no-watermarks/originals/2015/11/01/astronaut-plays-guitar-wallpaper.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+.learn {
+    background-image: url('https://i.pinimg.com/originals/f5/40/66/f54066990e19b660ac0d808d463a7c76.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+.goal {
+    background-image: url('https://c.pxhere.com/photos/25/4c/black_and_white_chess_dark_light_pawn_shadow_strategy-1035788.jpg!d');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 550px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+}
+.meetup {
+    background-image: url('http://www.bestermedia.com/wp-content/uploads/2016/10/artikkelbilde_thumb_760.jpg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: 550px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 700px;
+    margin-right: 150px;
+}
+img {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+h2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkslateblue;
+}
+date {
+    text-decoration: underline;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    height: 250px;
+    padding: 15px 35px 15px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.5);
+    overflow: scroll;
+}
+ol {
+    list-style-type: circle;
+}
+footer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-soundcloud {
+    color: white;
+    background: #ff5500;
+}
+.fa-linkedin {
+    color: white;
+    background: #0077B5;
+}
